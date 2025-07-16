@@ -1,0 +1,269 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "abubkrgamal17@gmail.com",
+        "principalSubject": "user:abubkrgamal17@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "156.174.199.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N916K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-05-27T12:16:22.664661807Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "monitoring.googleapis.com",
+      "methodName": "google.monitoring.v3.NotificationChannelService.ProvisionPublisherServiceAccount",
+      "authorizationInfo": [
+        {
+          "resource": "268786723101",
+          "permission": "monitoring.notificationChannels.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/268786723101/notificationChannelDescriptors/sms"
+    },
+    "insertId": "12urw2ae9h5jk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "monitoring.googleapis.com",
+        "project_id": "indigo-bazaar-423607-i9",
+        "method": "google.monitoring.v3.NotificationChannelService.ProvisionPublisherServiceAccount"
+      }
+    },
+    "timestamp": "2024-05-27T12:16:22.655097018Z",
+    "severity": "NOTICE",
+    "logName": "projects/indigo-bazaar-423607-i9/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-05-27T12:16:22.983504344Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "abubkrgamal17@gmail.com",
+        "principalSubject": "user:abubkrgamal17@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "156.174.199.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N916K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-05-27T12:17:40.520460984Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "monitoring.googleapis.com",
+      "methodName": "google.monitoring.v3.NotificationChannelService.CreateNotificationChannel",
+      "authorizationInfo": [
+        {
+          "resource": "268786723101",
+          "permission": "monitoring.notificationChannels.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/indigo-bazaar-423607-i9",
+      "request": {
+        "notificationChannel": {
+          "labels": {
+            "number": "+2001103265630"
+          },
+          "type": "sms"
+        },
+        "name": "projects/indigo-bazaar-423607-i9",
+        "@type": "type.googleapis.com/google.monitoring.v3.CreateNotificationChannelRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.monitoring.v3.NotificationChannel",
+        "enabled": true,
+        "name": "projects/indigo-bazaar-423607-i9/notificationChannels/493602924942879878",
+        "verificationStatus": "UNVERIFIED",
+        "labels": {
+          "number": "+201103265630",
+          "resolve_delivery_enabled": "true"
+        },
+        "type": "sms"
+      }
+    },
+    "insertId": "gxdcg2dso0n",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.monitoring.v3.NotificationChannelService.CreateNotificationChannel",
+        "project_id": "indigo-bazaar-423607-i9",
+        "service": "monitoring.googleapis.com"
+      }
+    },
+    "timestamp": "2024-05-27T12:17:40.515529863Z",
+    "severity": "NOTICE",
+    "logName": "projects/indigo-bazaar-423607-i9/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-05-27T12:17:41.751874090Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "abubkrgamal17@gmail.com",
+        "principalSubject": "user:abubkrgamal17@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "156.174.199.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N916K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-05-27T12:20:09.591094707Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "monitoring.googleapis.com",
+      "methodName": "google.monitoring.v3.NotificationChannelService.ProvisionPublisherServiceAccount",
+      "authorizationInfo": [
+        {
+          "resource": "268786723101",
+          "permission": "monitoring.notificationChannels.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/268786723101/notificationChannelDescriptors/email"
+    },
+    "insertId": "g3j2nif1cyqyy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "monitoring.googleapis.com",
+        "method": "google.monitoring.v3.NotificationChannelService.ProvisionPublisherServiceAccount",
+        "project_id": "indigo-bazaar-423607-i9"
+      }
+    },
+    "timestamp": "2024-05-27T12:20:09.581068223Z",
+    "severity": "NOTICE",
+    "logName": "projects/indigo-bazaar-423607-i9/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-05-27T12:20:10.053806901Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "abubkrgamal17@gmail.com",
+        "principalSubject": "user:abubkrgamal17@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "156.174.199.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N916K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-05-27T12:20:26.063674645Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "monitoring.googleapis.com",
+      "methodName": "google.monitoring.v3.NotificationChannelService.UpdateNotificationChannel",
+      "authorizationInfo": [
+        {
+          "resource": "3509265886380309684",
+          "permission": "monitoring.notificationChannels.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/indigo-bazaar-423607-i9/notificationChannels/3509265886380309684",
+      "request": {
+        "@type": "type.googleapis.com/google.monitoring.v3.UpdateNotificationChannelRequest",
+        "notificationChannel": {
+          "enabled": true,
+          "labels": {
+            "email_address": "abubkrgamal5@gmail.com",
+            "resolve_delivery_enabled": "true"
+          },
+          "name": "projects/indigo-bazaar-423607-i9/notificationChannels/3509265886380309684",
+          "type": "email"
+        },
+        "updateMask": "labels.emailAddress"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.monitoring.v3.NotificationChannel",
+        "enabled": true,
+        "name": "projects/indigo-bazaar-423607-i9/notificationChannels/3509265886380309684",
+        "labels": {
+          "resolve_delivery_enabled": "true",
+          "email_address": "abubkrgamal5@gmail.com"
+        },
+        "type": "email"
+      }
+    },
+    "insertId": "7hxj2nf1dtbh1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.monitoring.v3.NotificationChannelService.UpdateNotificationChannel",
+        "project_id": "indigo-bazaar-423607-i9",
+        "service": "monitoring.googleapis.com"
+      }
+    },
+    "timestamp": "2024-05-27T12:20:26.057489515Z",
+    "severity": "NOTICE",
+    "logName": "projects/indigo-bazaar-423607-i9/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-05-27T12:20:27.601121122Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Verification code is malformed, invalid, or expired."
+      },
+      "authenticationInfo": {
+        "principalEmail": "abubkrgamal17@gmail.com",
+        "principalSubject": "user:abubkrgamal17@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "156.174.199.85",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N916K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-05-27T12:21:47.752825361Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "monitoring.googleapis.com",
+      "methodName": "google.monitoring.v3.NotificationChannelService.VerifyNotificationChannel",
+      "authorizationInfo": [
+        {
+          "resource": "493602924942879878",
+          "permission": "monitoring.notificationChannels.verify",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/indigo-bazaar-423607-i9/notificationChannels/493602924942879878",
+      "request": {
+        "@type": "type.googleapis.com/google.monitoring.v3.VerifyNotificationChannelRequest",
+        "name": "projects/indigo-bazaar-423607-i9/notificationChannels/493602924942879878"
+      }
+    },
+    "insertId": "1iy0pj3f3levsz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.monitoring.v3.NotificationChannelService.VerifyNotificationChannel",
+        "service": "monitoring.googleapis.com",
+        "project_id": "indigo-bazaar-423607-i9"
+      }
+    },
+    "timestamp": "2024-05-27T12:21:47.746120181Z",
+    "severity": "ERROR",
+    "logName": "projects/indigo-bazaar-423607-i9/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-05-27T12:21:50.840516042Z"
+  }
+]
